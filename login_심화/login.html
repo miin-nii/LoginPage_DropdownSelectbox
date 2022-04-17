@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <article class="wrapper">
+            <header class="head-login">
+                <h2 class="txt-login">로그인 또는 회원가입</h2>
+                <img src="img/close.png" alt="닫기" class="img-close">
+            </header>
+            <form action="#" method="post" class="form-login">
+                <fieldset class="cont-login">
+                    <p class="txt-welcome">위니브에서 여러분의 궁금증을 해결하세요! :)</p>
+                    <input type="text" name="id" placeholder="아이디" class="blank myId" />
+                    <input type="password" name="pw" placeholder="비밀번호" class="blank myPw"/>
+                    <p class="txt-check">
+                        <img src="img/check-box.png" alt="체크박스" class="img-check" />로그인 상태 유지
+                    </p>
+                    <button type="submit" title="로그인" class="btn-login" >로그인</button>
+                    <ul class="signup-lost">
+                        <li class="signup"><a href="#">회원가입</a></li>
+                        <li class="lost"></li><a href="#">아이디/비밀번호 찾기</a></li>
+                    </ul>
+                </fieldset>
+                <fieldset class="btn-sns">
+                    <p class="txt-or">또는</p>
+                    <a class="btn google" href="https://www.google.com/"><img src="img/Google__G__Logo 1.png" alt="" class="logo-google">구글 계정으로 로그인</a>
+                    <a class="btn facebook" href="https://www.facebook.com/"><img src="img/facebook.png" alt="" class="logo-facebook">페이스북 계정으로 로그인</a>
+                    <a class="btn naver" href="https://www.naver.com/"><img src="img/naver-logo.png" alt="" class="logo-naver">네이버 계정으로 로그인</a>
+                    <a class="btn kakao" href="https://www.kakaocorp.com/page/service/service/KakaoTalk"><img src="img/message-circle.png" alt="" class="logo-kakao">카카오톡 계정으로 로그인</a>
+                </fieldset>
+            </form>
+        </article>
+    </body>
+</html>
