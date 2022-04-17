@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "SpoqaHanSansNeo-Regular";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.cont-login {
+    width: 350px;
+    margin: 20px auto;
+    padding: 18px 15px 17px;
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.clear-fix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+.cont-login a {
+    text-decoration: none;
+}
+
+.cont-login .txt-login {
+    margin-bottom: 16px;
+    font-family: "SpoqaHanSansNeo-Regular";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.cont-login .link-login {
+    display: block;
+    padding: 10px 0 12px;
+    background: #711bff;
+    border-radius: 4px;
+    font-family: "SpoqaHanSansNeo-Regular";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 17px;
+}
+.link-login .img-logo {
+    margin-right: 4px;
+    vertical-align: bottom;
+}
+
+.cont-login .cont-find {
+    float: left;
+}
+.cont-find .img-find {
+    float: left;
+    margin: -1px 4px 0 0;
+}
+.cont-find .link-id::after {
+    float: right;
+    display: block;
+    content: "";
+    width: 1px;
+    height: 12px;
+    margin: 0 4px;
+    background-color: #767676;
+}
+.cont-find [class^="link"] {
+    float: left;
+    font-family: "SpoqaHanSansNeo-Regular";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #767676;
+}
+
+.cont-login .cont-join {
+    float: right;
+}
+.cont-join [class$="join"] {
+    float: left;
+    font-family: "SpoqaHanSansNeo-Regular";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #767676;
+}
+.cont-join .img-join {
+    margin: -1px 4px 0 0;
+}
